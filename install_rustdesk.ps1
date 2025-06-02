@@ -1,6 +1,7 @@
 # install_rustdesk.ps1
 
-$zipUrl = "https://github.com/rustdesk/rustdesk/releases/latest/download/rustdesk-1.2.3-windows_x64.zip"
+$zipUrl = "https://github.com/rustdesk/rustdesk/releases/latest/download/rustdesk-windows_x64.zip"
+
 $tempZip = "$env:TEMP\rustdesk.zip"
 $extractDir = "$env:TEMP\rustdesk"
 
